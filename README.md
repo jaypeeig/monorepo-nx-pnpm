@@ -30,8 +30,7 @@ package centric
   - update tsconfig to tsconfig.base.json
 
 8. Add nestjs app (standard mode)
-- cd apps
-- pnpx @nestjs/cli@latest new <app-name>
+- pnpx @nestjs/cli@latest new apps/<app-name>
 
 ## Misc
 
