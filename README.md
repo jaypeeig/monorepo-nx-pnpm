@@ -18,5 +18,10 @@ package centric
 4. Create nuxt app in apps
   - pnpx nuxi@latest init nuxt-landing
   - update the name in new app package.json (@org/nuxt-landing)
+5. Run the nuxt in the root level:
+  - pnpm --filter @org/nuxt-landing dev (package.json scripts ref)
+  - app is running in port 3000 by default
+
+
 
 
