@@ -23,5 +23,11 @@ package centric
   - app is running in port 3000 by default
 
 
+## Misc
+
+1. Adding dependency package to app:
+  - pnpm add <package-to-add> --filter <app> --worspace
+
+
 
 
