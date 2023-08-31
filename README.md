@@ -56,7 +56,14 @@ package centric
 ## Misc
 
 1. Adding dependency package to app:
-  - pnpm add <package-to-add> --filter <app> --worspace
+  - pnpm add <package-to-add> --filter <app> --workspace
+
+2. Basic command structure
+  - pnpm --filter <pkg-name> <command>
+  - pnpx nx run-many -t <command>
+
+3. Display Graph
+  - pnpx nx graph
 
 
 
