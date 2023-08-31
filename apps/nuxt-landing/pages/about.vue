@@ -3,9 +3,17 @@
     <h1>About Us</h1>
     <p>
       We are a team of passionate individuals committed to providing the best solutions for your needs.
+      <UiButton :onClick="logme" >Click me!!</UiButton>
     </p>
+    
   </div>
 </template>
+
+<script setup>
+const logme = () => {
+  alert('hey!');
+}
+</script>
 
 <style scoped>
 h1 {

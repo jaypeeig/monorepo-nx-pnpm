@@ -32,6 +32,12 @@ package centric
 8. Add nestjs app (standard mode)
 - pnpx @nestjs/cli@latest new apps/<app-name>
 
+9. Add nuxt shared component
+  - create npm package.json in shared-ui
+  - create nuxt.mjs and vue.shim.d.ts
+  - create button component
+  - add shared-ui to nuxt app as dependency
+  - declare module in nuxt.config.ts
 ## Misc
 
 1. Adding dependency package to app:
