@@ -1,4 +1,4 @@
-# Monorepo
+# Setting Up a Monorepo with App-Centric Structure
 
 We will be using app centric in our case:
 
@@ -28,30 +28,10 @@ package centric
   - pnpm add -D typescript @types/node ts-node -w
   - pnpm tsc --init
   - update tsconfig to tsconfig.base.json
-  ```
-  {
-    "compileOnSave": false,
-    "compilerOptions": {
-      "rootDir": ".",
-      "sourceMap": true,
-      "declaration": false,
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "importHelpers": true,
-      "target": "es2015",
-      "module": "esnext",
-      "lib": ["es2020", "dom"],
-      "skipLibCheck": true,
-      "skipDefaultLibCheck": true,
-      "baseUrl": ".",
-      "paths": {}
-    },
-    "exclude": ["node_modules", "tmp"]
-  }
 
-  ```
-
+8. Add nestjs app (standard mode)
+- cd apps
+- pnpx @nestjs/cli@latest new <app-name>
 
 ## Misc
 
@@ -64,6 +44,11 @@ package centric
 
 3. Display Graph
   - pnpx nx graph
+
+4. Garbage Collection
+  - pnpm store prune
+
+
 
 
 
