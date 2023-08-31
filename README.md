@@ -24,7 +24,33 @@ package centric
 6. Add Nx workspace
   - npx nx@latest init
   - https://nx.dev/recipes/adopting-nx/adding-to-monorepo
+7. Add typscript at root
+  - pnpm add -D typescript @types/node ts-node -w
+  - pnpm tsc --init
+  - update tsconfig to tsconfig.base.json
+  ```
+  {
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDir": ".",
+      "sourceMap": true,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "target": "es2015",
+      "module": "esnext",
+      "lib": ["es2020", "dom"],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": ".",
+      "paths": {}
+    },
+    "exclude": ["node_modules", "tmp"]
+  }
 
+  ```
 
 
 ## Misc
