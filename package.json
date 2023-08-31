@@ -1,0 +1,9 @@
+{
+  "name": "nx-pnpm",
+  "version": "1.0.0",
+  "description": "Nx package pabsed monorepo using pnpm",
+  "private": true,
+  "scripts": {},
+  "author": "Jaypee Ignacio",
+  "license": "MIT"
+}
