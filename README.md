@@ -21,6 +21,10 @@ package centric
 5. Run the nuxt in the root level:
   - pnpm --filter @org/nuxt-landing dev (package.json scripts ref)
   - app is running in port 3000 by default
+6. Add Nx workspace
+  - npx nx@latest init
+  - https://nx.dev/recipes/adopting-nx/adding-to-monorepo
+
 
 
 ## Misc
