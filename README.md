@@ -9,6 +9,7 @@ app centric
 
 package centric
   - "packages"
+  - "libs"
 ```
 
 1. Initialize git repo
@@ -30,7 +31,8 @@ package centric
   - update tsconfig to tsconfig.base.json
 
 8. Add nestjs app (standard mode)
-- pnpx @nestjs/cli@latest new apps/<app-name>
+  - pnpx @nestjs/cli@latest new apps/<app-name>
+  - Delete .git in new nest app (rm -rf apss/<app-name>/.git)
 
 9. Add nuxt shared component
   - create npm package.json in shared-ui
@@ -52,9 +54,3 @@ package centric
 
 4. Garbage Collection
   - pnpm store prune
-
-
-
-
-
-
